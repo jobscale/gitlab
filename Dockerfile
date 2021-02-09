@@ -1,3 +1,3 @@
 FROM gitlab/gitlab-ce:nightly
-WORKDIR /etc/gitlab
+WORKDIR /opt/gitlab/etc
 COPY gitlab.rb /opt/gitlab/etc/gitlab.rb.template

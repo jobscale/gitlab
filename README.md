@@ -3,7 +3,7 @@
 ## setup after healty
 
 ```
-HOST=gitlab.jsx.jp
+HOST=git.jsx.jp
 PORT=443
 setup() {
   [[ ! -s /etc/gitlab/gitlab.rb ]] && return
